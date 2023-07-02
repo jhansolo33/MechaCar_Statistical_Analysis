@@ -20,7 +20,7 @@ Design a Study Comparing the MechaCar to the Competition
 
 ##  Resources:
 
-• Data Source: MechaCar_mpg.csv and Suspension_Coil.csv
+• Data Source: MechaCar_mpg.csv and Suspension_Coil.csv, Stack Overflow
 
 • Data Tools: tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript.
 
@@ -108,7 +108,7 @@ From here we can see the true mean of the sample is 1498.78, which we also saw i
 
 # ***Picture
 
-Next looking at each individual lots:
+Next looking at the individual lots:
 
 Lot 1 - sample actually has the true sample mean of 1500, again as we saw in the summary statistics above. With a p-Value of 1, clearly we cannot reject (i.e. accept) the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
 Lot 2 - has essentially the same outcome with a sample mean of 1500.02, a p-Value of 0.61; the null hypothesis cannot be rejected, and the sample mean and the population mean of 1500 are statistically similar.
