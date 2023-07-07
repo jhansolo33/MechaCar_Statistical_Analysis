@@ -22,7 +22,7 @@ Design a Study Comparing the MechaCar to the Competition
 
 • Data Source: MechaCar_mpg.csv and Suspension_Coil.csv, Stack Overflow
 
-• Data Tools: tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript.
+• Data Tools: tidyverse, dplyr, and MechaCarChallenge.RScript.
 
 • Software: RStudio and R
 
@@ -47,7 +47,7 @@ mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (
 
 
 
-##Summary: In light of the above output we observe that:
+##  Summary: 
 
 A:The vehicle length, and vehicle ground clearance are statistically likely to provide non-random amounts of variance to the model. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset.
 
