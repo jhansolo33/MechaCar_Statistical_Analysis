@@ -102,11 +102,13 @@ C:
 
 The next step is to conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed population mean of 1500, we find the following: Summary of the t-test results across all manufacturing lots:
 
-# ****Picture
+# ![t-test1](https://github.com/jhansolo33/MechaCar_Statistical_Analysis/assets/119264589/a96a5cbc-921c-4349-aadf-e8df8a43fb41)
+
 
 From here we can see the true mean of the sample is 1498.78, which we also saw in the summary statistics above. With a p-Value of 0.06, which is higher than the common significance level of 0.05, there is NOT enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
 
-# ***Picture
+# ![t-test2](https://github.com/jhansolo33/MechaCar_Statistical_Analysis/assets/119264589/44619238-0fea-4273-9588-5242326357a3)
+
 
 Next looking at the individual lots:
 
@@ -157,7 +159,7 @@ After determining which factors are key for the MechaCar's genre:
 
 ##Statistical Tests:
 
-A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price.
+A multiple linear regression is used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price.
 
 
 
