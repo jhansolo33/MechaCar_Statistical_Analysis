@@ -43,7 +43,7 @@ Results on Deliverable: Resulting Model
 
 mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)
 
-# ![image 1](https://github.com/jhansolo33/MechaCar_Statistical_Analysis/assets/119264589/83aa3dfd-e46c-4700-a19a-8e86beb8bfc8)
+ ![image 1](https://github.com/jhansolo33/MechaCar_Statistical_Analysis/assets/119264589/83aa3dfd-e46c-4700-a19a-8e86beb8bfc8)
 
 
 
@@ -67,23 +67,26 @@ A:Download the Suspension_Coil.csv file, and place it in the active directory fo
 B:In your MechaCarChallenge.RScript, import and read in the Suspension_Coil.csv file as a table.
 C:Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column. The dataframe:
 
-# **Picture
+ ![image 2](https://github.com/jhansolo33/MechaCar_Statistical_Analysis/assets/119264589/b59c1ffe-97d4-4eb2-a9aa-12bc723e9ad2)
+
 
 D:Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column. The lot_summary dataframe:
 
-# ***Picture
+ ![image 5](https://github.com/jhansolo33/MechaCar_Statistical_Analysis/assets/119264589/157520ae-7b1a-4130-8c51-4613aee94831)
+![image 6](https://github.com/jhansolo33/MechaCar_Statistical_Analysis/assets/119264589/5f6408d4-b5f4-4eed-824e-573037412da4)
+
 
 The Suspension Coil dataset provided for the MechaCar contains the results of testing the weight capacities of multiple suspension coils from multiple production lots to determine consistency. At first all manufacturing lots:
 
-# ***Picture
+# ![image 7](https://github.com/jhansolo33/MechaCar_Statistical_Analysis/assets/119264589/1747f4b1-470a-4731-b819-570af59db78a)
+
 
 Diving a little deeper into each of the 3 lots:
 
-#  ***Picture
+#  ![image 8](https://github.com/jhansolo33/MechaCar_Statistical_Analysis/assets/119264589/cda07c3b-3931-4928-b4cd-3744581bd4ca)
 
-With the understanding that the design specifications for the MechaCar suspension coils mandate that the variance of the suspension coils cannot exceed 100 pounds per square inch (PSI) . Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not? When looking at the entire population of the production lot, the variance of the coils is 62.29 PSI, which is well within the 100 PSI variance requirement. Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively. However, it is Lot 3 that is showing much larger variance in performance and consistency, with a variance of 170.29. It is Lot 3 that is disproportionately causing the variance at the full lot level. This very simple boxplot illustrates the differences between the lots:
 
-# *** Picture:
+Having the knowledge that the design specifications for the MechaCar suspension coils mandate that the variance of the suspension coils cannot exceed 100 pounds per square inch (PSI) . Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not? When looking at the entire population of the production lot, the variance of the coils is 62.29 PSI, which is well within the 100 PSI variance requirement. Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively. However, it is Lot 3 that is showing much larger variance in performance and consistency, with a variance of 170.29. It is Lot 3 that is disproportionately causing the variance at the full lot level. 
 
 ##  3. t-Tests on Suspension Coils:
 
